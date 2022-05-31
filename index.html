@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word rearranging game</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Rearrange the Word</h1>
+    <div class="main_container">
+      <div class="container">
+        <div class="word_container">
+          <h2>Guess the word:</h2>
+          <h3 id="word"></h3>
+        </div>
+        <div id="inputed_word"></div>
+        <input id="input_word" type="text" placeholder="enter your word here" />
+        <div class="buttons">
+          <button id="start_game">Start Game</button>
+          <button id="submit">Submit</button>
+        </div>
+        <div class="result_container"><p id="result"></p></div>
+        <div class="score_container">
+          <p id="result_para">YOUR SCORE :</p>
+          <p id="score">00</p>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
